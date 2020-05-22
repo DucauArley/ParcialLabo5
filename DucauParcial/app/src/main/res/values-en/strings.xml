@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DucauParcial</string>
+    <string name="textPro">Product name</string>
+    <string name="textCant">Quantity:</string>
+    <string name="textPre">Price:</string>
+    <string name="btnG">Edit</string>
+
+
+
+</resources>

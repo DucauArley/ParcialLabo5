@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DucauParcial</string>
+    <string name="textPro">Nombre del producto</string>
+    <string name="textCant">Cantidad:</string>
+    <string name="textPre">Precio:</string>
+    <string name="btnG">Editar</string>
+
+</resources>
