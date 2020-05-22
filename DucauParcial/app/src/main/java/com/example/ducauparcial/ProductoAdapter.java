@@ -1,5 +1,6 @@
 package com.example.ducauparcial;
 
+import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,8 +42,8 @@ public class ProductoAdapter extends RecyclerView.Adapter<ProductoViewHolder> im
         TextView tvCantidad = holder.view.findViewById(R.id.tvCantidad);
         TextView tvPrecio = holder.view.findViewById(R.id.tvPrecio);
         tvProducto.setText(p.getNombre());
-        tvCantidad.setText("Cantidad: " + p.getCantidad());
-        tvPrecio.setText("Precio Unidad: " + p.getPrecio());
+        tvCantidad.setText(MainActivity.getInstance().getString(R.string.textCant) + " " + p.getCantidad());
+        tvPrecio.setText(MainActivity.getInstance().getString(R.string.textPre) + " " + p.getPrecio());
 
     }
 
